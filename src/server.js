@@ -115,6 +115,7 @@ module.exports.createServer = createServer;
 
 function stopServer() {
   if (server) {
+    // TDOD: can not stop
     server.close();
     log("http proxy server stopped.");
   }
