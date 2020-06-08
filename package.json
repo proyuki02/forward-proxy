@@ -1,0 +1,19 @@
+{
+  "name": "forward-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./src",
+    "build:win": "electron-packager ./src ForwardProxy --platform=win32  --arch=x64 --overwrite && bestzip ForwardProxy-win32-x64.zip  ForwardProxy-win32-x64",
+    "build:mac": "electron-packager ./src ForwardProxy --platform=darwin --arch=x64 --overwrite && bestzip ForwardProxy-darwin-x64.zip ForwardProxy-darwin-x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "bestzip": "^2.1.5",
+    "electron": "^9.0.2",
+    "electron-packager": "^14.2.1"
+  }
+}

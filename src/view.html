@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Foward Proxy</title>
+    <link rel="stylesheet" type="text/css" href="./view.css" />
+  </head>
+
+  <body>
+    <div class="row-ex">
+      <div>
+        <div class="row">
+          <div class="label">Proxy host</div>
+          <div class="host"></div>
+          <div class="label" style="margin-left: 20px;">Proxy port</div>
+          <input id="port" type="text" value="8888" />
+        </div>
+        <div class="row">
+          <div class="label">External proxy</div>
+          <div>
+            <input
+              id="external"
+              type="text"
+              value=""
+              placeholder="http://dev-proxy.example.com:9999"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="label">Excluded hosts</div>
+          <div>
+            <input
+              id="excluded"
+              type="text"
+              value="connectivitycheck.gstatic.com,captive.apple.com"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <button id="start">START SERVER</button>
+      </div>
+    </div>
+    <div id="log-frame">
+      <div id="log-history"></div>
+    </div>
+  </body>
+</html>
+<script src="./view.js"></script>
