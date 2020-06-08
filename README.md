@@ -7,7 +7,7 @@ This application support that your SmartPhone access to servers in your VPN.
 
 ## Diagram
 
-![diagram](https://user-images.githubusercontent.com/40527123/84007166-ea614880-a9aa-11ea-825a-1579bbc18595.png)
+![diagram](https://user-images.githubusercontent.com/40527123/84014099-c86cc380-a9b4-11ea-89b6-36353f915469.png)
 
 ## How to use
 
