@@ -9,7 +9,7 @@
     "build:mac": "electron-packager ./src ForwardProxy --platform=darwin --arch=x64 --overwrite && bestzip ForwardProxy-darwin-x64.zip ForwardProxy-darwin-x64"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "bestzip": "^2.1.5",

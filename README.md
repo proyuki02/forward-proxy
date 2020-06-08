@@ -26,3 +26,7 @@ This application support that your SmartPhone access to servers in your VPN.
 ## References
 
 https://qiita.com/LightSpeedC/items/5c1edc2c974206c743f4
+
+## License
+
+MIT
